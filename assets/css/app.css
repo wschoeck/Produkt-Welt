@@ -1,0 +1,119 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #7fcef4;
+}
+
+.background_1 {
+  background-color: #7fcef4;
+}
+
+.fixed {
+  width: 100%;
+  position: fixed;
+}
+
+.bus {
+  width: 100%;
+  margin-top: -235Px;
+}
+
+.container {
+  position: relative;
+  z-index: 3;
+}
+
+.first {
+  width: 100%;
+}
+
+.one {
+width: 100%;
+box-sizing: border-box;
+z-index: 1;
+}
+
+.two {
+width: 100%;
+box-sizing: border-box;
+z-index: 2;
+}
+
+.three {
+width: 100%;
+box-sizing: border-box;
+z-index: 3;
+}
+
+h1 {
+/* border: 1px solid blue; */
+padding: 0;
+margin-top: 3em;
+margin-bottom: 0em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0em;
+font-size: 1.8em;
+line-height: 1.2em;
+color: #0080c6;
+}
+
+h2 {
+/* border: 1px solid green; */
+padding: 0;
+margin-top: 1.2em;
+margin-bottom: 0em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0.05em;
+font-size: 1.4em;
+color: #0080c6;
+}
+
+h3 {
+/* border: 1px solid red; */
+padding: 0;
+margin-top: 0.08em;
+margin-bottom: 0em;
+font-family: 'Barlow', sans-serif;
+font-weight: 800;
+letter-spacing: 0em;
+font-size: 10em;
+line-height: 0.8em;
+color: #0080c6;
+}
+
+.offsetTop{
+    margin-top: 100px;
+}
+img{
+    width:100%;
+}
+/* ------- Default Stil */
+section img{
+    opacity:1;
+    -webkit-transition: all 0s linear;
+    transition: all 0s linear;
+}
+
+#section-2 img.first{
+    transform: translate(3000px,0);
+    transition: 3s;
+    margin-bottom: 20Px;
+}
+
+
+
+/* ------- Falls onScreen neuer Zustand Stil, hier kann irgendetwas verändert werden
+
+ */
+section.onScreen img{
+    opacity:1;
+}
+
+#section-2.onScreen img.first{
+    transform: translate(0px,0);
+    transition: 3s;
+    margin-bottom: 20Px;
+}

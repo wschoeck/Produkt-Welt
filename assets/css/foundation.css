@@ -23,20 +23,6 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 3 */ }
 
-/* Ergaenzung Wolfgang */
-
-.rotate { /*Beispiel Rotation */
-  -webkit-transform: rotate(600deg); /* Safari */   
-  transform: rotate(600deg);
-  margin:0px;
-}
-
-img:hover {
-  transform: rotate(600deg);
-}
-
-/* Ergaenzung Wolfgang */
-
 /* Sections
        ========================================================================== */
 /**
