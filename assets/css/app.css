@@ -15,11 +15,73 @@ body {
 }
 
 .bus {
-  width: 100%;
-  margin-top: -235Px;
+  width: 200%;
+  margin-top: -600Px;
 }
 
-.container {
+.bus_2 {
+  width: 200%;
+  margin-top: -1000Px;
+}
+
+.elektrik {
+  width: 200%;
+  margin-top: -600Px;
+  margin-left: -280Px;
+  position: absolute;
+}
+
+.elektrik_2 {
+  width: 200%;
+  margin-top: -1000Px;
+  margin-left: -280Px;
+  position: absolute;
+}
+
+.elektrik_hg {
+  width: 120%;
+  margin-top: -400Px;
+  margin-left: -200Px;
+  position: absolute;
+}
+
+.elektrik_hg_2 {
+  width: 120%;
+  margin-top: -800Px;
+  margin-left: -200Px;
+  position: absolute;
+}
+
+.earth {
+  width: 70%;
+  margin-top: -160Px;
+  margin-left: 400Px;
+
+}
+
+.globe {
+  width: 70%;
+  margin-top: -500Px;
+  margin-left: 400Px;
+
+}
+
+.lkw {
+  width: 200%;
+  margin-top: -1000Px;
+}
+
+.container_1 {
+  position: relative;
+  z-index: 1;
+}
+
+.container_2 {
+  position: relative;
+  z-index: 2;
+}
+
+.container_3 {
   position: relative;
   z-index: 3;
 }
@@ -100,7 +162,21 @@ section img{
 #section-2 img.first{
     transform: translate(3000px,0);
     transition: 3s;
-    margin-bottom: 20Px;
+}
+
+#section-3 img.first{
+    transform: translate(3000px,0);
+    transition: 6s;
+}
+
+#section-4 img.first{
+    transform: translate(3000px,0);
+    transition: 5s;
+}
+
+#section-5 img.first{
+    transform: translate(3000px,0);
+    transition: 8s;
 }
 
 
@@ -115,5 +191,19 @@ section.onScreen img{
 #section-2.onScreen img.first{
     transform: translate(0px,0);
     transition: 3s;
-    margin-bottom: 20Px;
+}
+
+#section-3.onScreen img.first{
+    transform: translate(0px,0);
+    transition: 6s;
+}
+
+#section-4.onScreen img.first{
+    transform: translate(0px,0);
+    transition: 5s;
+}
+
+#section-5.onScreen img.first{
+    transform: translate(0px,0);
+    transition: 10s;
 }
