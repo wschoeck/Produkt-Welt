@@ -9,9 +9,32 @@ body {
   background-color: #7fcef4;
 }
 
+.background_2 {
+  background-color: #0080c6;
+}
+
 .fixed {
   width: 100%;
   position: fixed;
+}
+
+.ground {
+  width: 100%;
+  margin-top: -300px;
+  position: absolute;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  color: #0080c6;
 }
 
 .bus {
@@ -62,6 +85,13 @@ body {
 .globe {
   width: 70%;
   margin-top: -500Px;
+  margin-left: 400Px;
+
+}
+
+.globe_2 {
+  width: 70%;
+  margin-top: -700Px;
   margin-left: 400Px;
 
 }
@@ -146,6 +176,19 @@ line-height: 0.8em;
 color: #0080c6;
 }
 
+h4 {
+/* border: 1px solid blue; */
+padding: 0;
+margin-top: 3em;
+margin-bottom: 0em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0em;
+font-size: 1.8em;
+line-height: 1.2em;
+color: #7fcef4;
+}
+
 .offsetTop{
     margin-top: 100px;
 }
@@ -207,3 +250,62 @@ section.onScreen img{
     transform: translate(0px,0);
     transition: 10s;
 }
+
+/* Slider_Wolfgang_Button */
+
+
+input.set {
+	display:none;
+}
+
+#slide1:checked ~ .mask .overflow { margin-left:0; }
+#slide2:checked ~ .mask .overflow { margin-left:-380px; }
+#slide3:checked ~ .mask .overflow { margin-left:-760px; }
+
+#slides {
+	margin-top:50px;
+	width:500px;
+	position:relative;
+	background-color: none;
+}
+
+#slides .mask {
+	width:380px;
+	overflow:hidden;
+	margin:auto;
+}
+
+#slides .overflow {
+	width:300%;
+	-webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s;
+}
+
+#slides .slide {
+	width: 380px;
+	height:570px;
+	float:left;
+	background: none;
+}
+
+#controls label {
+  color: none;
+	display:none;
+	width:60px;
+	height:60px;
+	opacity:1;
+	position:absolute;
+	top:50%;
+	margin-top:-30px;
+	cursor:pointer;
+  background-image: url(assets/img/Product_World_Arrow.svg);
+}
+
+#controls label:hover {
+	opacity:1;
+}
+
+
+#slide1:checked ~ #controls label:nth-child(2), #slide2:checked ~ #controls label:nth-child(3), #slide3:checked ~ #controls label:nth-child(0) { right:0; display:block; transform: rotate(180deg);}
+
+#slide2:checked ~ #controls label:nth-child(1), #slide3:checked ~ #controls label:nth-child(2) { left:0; display:block; }
