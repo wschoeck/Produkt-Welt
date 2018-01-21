@@ -20,7 +20,7 @@ body {
 
 .ground {
   width: 100%;
-  margin-top: -300px;
+  margin-top: -360px;
   position: absolute;
 }
 
@@ -82,17 +82,28 @@ body {
 
 }
 
+.sticky {
+  position: sticky;
+  top:0px;
+  left: 4000px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 3;
+  width:900px;
+  height:900px;
+}
+
 .globe {
   width: 70%;
-  margin-top: -500Px;
+  margin-top: -600Px;
   margin-left: 400Px;
 
 }
 
 .globe_2 {
   width: 70%;
-  margin-top: -700Px;
-  margin-left: 400Px;
+  margin-top: -750Px;
+  margin-left: 450Px;
 
 }
 
@@ -114,6 +125,18 @@ body {
 .container_3 {
   position: relative;
   z-index: 3;
+}
+
+.container_4 {
+  position: relative;
+  margin-top: -96px;
+  z-index: 3;
+}
+
+.container_5 {
+ margin-top: -700px;
+  margin-right: -80px;
+  z-index: 1;
 }
 
 .first {
@@ -189,6 +212,47 @@ line-height: 1.2em;
 color: #7fcef4;
 }
 
+h5 {
+/* border: 1px solid blue; */
+padding: 0;
+margin-top: 0.1em;
+margin-bottom: 0em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0em;
+font-size: 1.8em;
+line-height: 1.2em;
+color: #0080c6;
+}
+
+h6 {
+/* border: 1px solid red; */
+padding: 0;
+margin-top: 0.08em;
+margin-bottom: 6em;
+font-family: 'Barlow', sans-serif;
+font-weight: 800;
+letter-spacing: 0em;
+font-size: 10em;
+line-height: 0.8em;
+color: #0080c6;
+}
+
+.h1_Text {
+/* border: 1px solid blue; */
+padding: 0;
+margin-top: 3em;
+margin-bottom: 8em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0em;
+font-size: 1.8em;
+line-height: 1.2em;
+color: #0080c6;
+}
+
+
+
 .offsetTop{
     margin-top: 100px;
 }
@@ -233,22 +297,22 @@ section.onScreen img{
 
 #section-2.onScreen img.first{
     transform: translate(0px,0);
-    transition: 3s;
+    transition: 0.1s;
 }
 
 #section-3.onScreen img.first{
     transform: translate(0px,0);
-    transition: 6s;
+    transition: 3s;
 }
 
 #section-4.onScreen img.first{
     transform: translate(0px,0);
-    transition: 5s;
+    transition: 0s;
 }
 
 #section-5.onScreen img.first{
     transform: translate(0px,0);
-    transition: 10s;
+    transition: 8s;
 }
 
 /* Slider_Wolfgang_Button */
@@ -289,7 +353,7 @@ input.set {
 }
 
 #controls label {
-  color: none;
+  color: green;
 	display:none;
 	width:60px;
 	height:60px;
@@ -303,6 +367,14 @@ input.set {
 
 #controls label:hover {
 	opacity:1;
+}
+
+#globe img{
+  opacity: 0;
+}
+
+#globe.arrived img{
+  opacity: 1;
 }
 
 

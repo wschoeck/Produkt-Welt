@@ -18,7 +18,7 @@ $( "section" ).each(function( index, section ) {
             $(section).addClass('onScreen');
         },
         doOut: function() {
-            $(section).removeClass('onScreen');
+            //$(section).removeClass('onScreen');
         },
         tolerance: 0,
         throttle: 50,
@@ -26,3 +26,22 @@ $( "section" ).each(function( index, section ) {
         debug: false
     });
 });
+
+
+var scrollDistanz;
+var distanzElement;
+distanzElement = $('#globe').offset().top;
+
+$(window).on('scroll',
+    function(){
+      scrollDistanz = $(window).scrollTop();
+      distanzElement = $('#globe').offset().top;
+    //console.log("distanz"+distanzElement);
+      if(scrollDistanz>=distanzElement){
+        $('#globe').addClass('arrived');
+      }else{
+        $('#globe').removeClass('arrived');
+      }
+    }
+
+);
