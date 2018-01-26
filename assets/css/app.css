@@ -6,11 +6,19 @@ body {
 }
 
 .background_1 {
-  background-color: #7fcef4;
+  background-color: #0080c6;
 }
 
 .background_2 {
-  background-color: #0080c6;
+  background-size: 100% auto;
+  background-color: #c8e8fb;
+  margin-top: 400Px;
+  height: auto;
+}
+
+.background_White {
+  background-color: red;
+  z-index: 3;
 }
 
 .fixed {
@@ -138,7 +146,7 @@ a.mehr_Anchor {
   font-family: 'Barlow', sans-serif;
   font-weight: 600;
   letter-spacing: 0em;
-  font-size: 1.6em;
+  font-size: 1.5em;
   line-height: 1.2em;
   color: #7fcef4;
 }
@@ -162,7 +170,7 @@ margin-top: -200Px;
 
 .bus_2 {
   width: 100%;
-  margin-top: -1000Px;
+  margin-top: -600Px;
 }
 
 .elektrik {
@@ -173,9 +181,9 @@ margin-top: -200Px;
 }
 
 .elektrik_2 {
-  width: 200%;
-  margin-top: -1000Px;
-  margin-left: -280Px;
+  width: 100%;
+  margin-top: -600Px;
+  margin-left: 0Px;
   position: absolute;
 }
 
@@ -196,7 +204,7 @@ margin-top: -200Px;
 
 .elektrik_street {
   width: 100%;
-  margin-top: -1000Px;
+  margin-top: -600Px;
   margin-left: 0Px;
   position: absolute;
 }
@@ -210,14 +218,14 @@ margin-top: -200Px;
 
 .place {
   width: 90%;
-  margin-top: -1000Px;
+  margin-top: -400Px;
   margin-left: 0Px;
   position: absolute;
 }
 
 .street_hg {
   width: 100%;
-  margin-top: -1100Px;
+  margin-top: -900Px;
   margin-left: 0Px;
   margin-bottom: 100Px;
   position: absolute;
@@ -225,7 +233,7 @@ margin-top: -200Px;
 
 .map {
   width: 100%;
-  margin-top: -700Px;
+  margin-top: -100Px;
   margin-left: 0Px;
   margin-bottom: 0Px;
   position: absolute;
@@ -411,7 +419,7 @@ h6 {
 /* border: 1px solid red; */
 padding: 0;
 margin-top: 0.08em;
-margin-bottom: 4em;
+margin-bottom: 0em;
 font-family: 'Barlow', sans-serif;
 font-weight: 800;
 letter-spacing: 0em;
@@ -424,6 +432,19 @@ color: #0080c6;
 /* border: 1px solid blue; */
 padding: 0;
 margin-top: 3em;
+margin-bottom: 15em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0em;
+font-size: 1.8em;
+line-height: 1.2em;
+color: #0080c6;
+}
+
+.h1_Start {
+/* border: 1px solid blue; */
+padding: 0;
+margin-top: -11em;
 margin-bottom: 12em;
 font-family: 'Barlow', sans-serif;
 font-weight: 600;
@@ -431,6 +452,164 @@ letter-spacing: 0em;
 font-size: 1.8em;
 line-height: 1.2em;
 color: #0080c6;
+}
+
+.h2_Start {
+/* border: 1px solid green; */
+padding: 0;
+margin-top: -14.5em;
+margin-bottom: 0em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0.05em;
+font-size: 1.4em;
+color: #0080c6;
+}
+
+.h3_Start {
+/* border: 1px solid red; */
+padding: 0;
+margin-top: -1.15em;
+margin-bottom: 0em;
+font-family: 'Barlow', sans-serif;
+font-weight: 800;
+letter-spacing: 0em;
+font-size: 10em;
+line-height: 0.8em;
+color: #0080c6;
+}
+
+.h1_Standort {
+/* border: 1px solid blue; */
+padding: 0;
+margin-top: -7em;
+margin-bottom: 12em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0em;
+font-size: 1.8em;
+line-height: 1.2em;
+color: #0080c6;
+}
+
+.h2_Standort {
+/* border: 1px solid blue; */
+padding: 0;
+margin-top: -10.5em;
+margin-bottom: 12em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0em;
+font-size: 1.8em;
+line-height: 1.2em;
+color: #0080c6;
+}
+
+.h3_Standort {
+/* border: 1px solid red; */
+padding: 0;
+margin-top: -1.9em;
+margin-bottom: 0em;
+font-family: 'Barlow', sans-serif;
+font-weight: 800;
+letter-spacing: 0em;
+font-size: 10em;
+line-height: 0.8em;
+color: #0080c6;
+}
+
+.h1_earth {
+/* border: 1px solid blue; */
+padding: 0;
+margin-top: 26em;
+margin-bottom: 0em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0em;
+font-size: 1.8em;
+line-height: 1.2em;
+color: #0080c6;
+}
+
+.h2_earth {
+/* border: 1px solid blue; */
+padding: 0;
+margin-top: 2em;
+margin-bottom: 0em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0em;
+font-size: 1.8em;
+line-height: 1.2em;
+color: #0080c6;
+}
+
+.h3_earth {
+/* border: 1px solid red; */
+padding: 0;
+margin-top: 0.2em;
+margin-bottom: 6em;
+font-family: 'Barlow', sans-serif;
+font-weight: 800;
+letter-spacing: 0em;
+font-size: 10em;
+line-height: 0.8em;
+color: #0080c6;
+}
+
+.h1_Schulweg {
+/* border: 1px solid blue; */
+padding: 0;
+margin-top: -20em;
+margin-bottom: 12em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0em;
+font-size: 1.8em;
+line-height: 1.2em;
+color: #0080c6;
+}
+
+.h2_Schulweg {
+/* border: 1px solid blue; */
+padding: 0;
+margin-top: -11em;
+margin-bottom: 12em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0em;
+font-size: 1.8em;
+line-height: 1.2em;
+color: #0080c6;
+}
+
+.h3_Schulweg {
+/* border: 1px solid red; */
+padding: 0;
+margin-top: -2em;
+margin-bottom: 0em;
+font-family: 'Barlow', sans-serif;
+font-weight: 800;
+letter-spacing: 0em;
+font-size: 10em;
+line-height: 0.8em;
+color: #0080c6;
+}
+
+.mehr_Produkt {
+/* border: 1px solid green; */
+padding: 0;
+margin-top: 1.2em;
+margin-bottom: 0em;
+font-family: 'Barlow', sans-serif;
+font-weight: 600;
+letter-spacing: 0.05em;
+font-size: 1.4em;
+color: #0080c6;
+}
+
+.background_bottom {
+  height: 60Px;
 }
 
 
@@ -472,6 +651,17 @@ section img{
     transform: translate(3000px,0);
     transition: 20s;
 }
+
+#section-7 img.first{
+    transform: translate(9000px,0);
+    transition: 6s;
+}
+
+#section-8 img.first{
+    transform: translate(3000px,0);
+    transition: 6s;
+}
+
 
 #section-place-1 img.first{
     transform: translate(-20Px,-2000Px);
@@ -538,6 +728,16 @@ section.onScreen img{
 }
 
 #section-6.onScreen img.first{
+    transform: translate(-3000px,0);
+    transition: 12s;
+}
+
+#section-7.onScreen img.first{
+    transform: translate(0px,0);
+    transition: 3s;
+}
+
+#section-8.onScreen img.first{
     transform: translate(-3000px,0);
     transition: 12s;
 }
