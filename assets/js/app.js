@@ -30,18 +30,36 @@ $( "section" ).each(function( index, section ) {
 
 var scrollDistanz;
 var distanzElement;
-distanzElement = $('#globe').offset().top;
+//distanzElement = $('#globe').offset().top;
 
 $(window).on('scroll',
     function(){
-      scrollDistanz = $(window).scrollTop();
-      distanzElement = $('#globe').offset().top;
-    //console.log("distanz"+distanzElement);
-      if(scrollDistanz>=distanzElement){
-        $('#globe').addClass('arrived');
-      }else{
-        $('#globe').removeClass('arrived');
+      if($('#globe').length>0){
+        scrollDistanz = $(window).scrollTop();
+        distanzElement = $('#globe').offset().top;
+      //console.log("distanz"+distanzElement);
+        if(scrollDistanz>=distanzElement){
+          $('#globe').addClass('arrived');
+        }else{
+          $('#globe').removeClass('arrived');
+        }
       }
+
     }
 
 );
+
+$('a.mehr').on('click', function(e){
+
+    var target=this.hash, $target = $(target);
+    var scroll = $(target).offset().top;
+
+    $('html, body').stop().animate({
+        'scrollTop':scroll
+
+      },900, 'swing', function(){}
+
+    );
+    e.preventDefault();
+
+})

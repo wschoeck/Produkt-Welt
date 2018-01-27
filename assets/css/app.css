@@ -628,7 +628,7 @@ section img{
 }
 
 #section-2 img.first{
-    transform: translate(3000px,0);
+    transform: translate(3000px,0);/* 110vw */
     transition: 3s;
 }
 
